@@ -5,10 +5,12 @@ Math Library for Python
 <pre><code>pip install MathLibrary</code></pre>
 
 # Example
-        
-        from MathLibrary.mathlibrary import MathLibrary
+        ```python
+from MathLibrary.mathlibrary import MathLibrary
         
         MathLibrary.fact(5)
+```
+        
         
      
 ### Output : 
