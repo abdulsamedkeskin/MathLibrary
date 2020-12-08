@@ -54,4 +54,4 @@ except:
 	print("Hata")
 
 if __name__ == '__main__':
-	MathLibrary.square(16)
+	pass
