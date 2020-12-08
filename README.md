@@ -1,20 +1,17 @@
 # MathLibrary
 Math Library for Python
-```python
-s = "Python syntax highlighting"
-print s
-```
+
 # Installation
 <pre><code>pip install MathLibrary</code></pre>
 
 # Example
-        ```python
+
+```python
 from MathLibrary.mathlibrary import MathLibrary
 MathLibrary.fact(5)
-        ```
+```   
         
-        
-     
+
 ### Output : 
 #### 120
 # Props
