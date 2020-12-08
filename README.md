@@ -2,12 +2,15 @@
 Math Library for Python
 
 # Installation
-<pre><code>pip install MathLibrary</code></pre>
-
+```python
+pip install MathLibrary
+```
 # Example
 
 ```python
 from MathLibrary.mathlibrary import MathLibrary
+
+
 MathLibrary.fact(5)
 ```   
         
