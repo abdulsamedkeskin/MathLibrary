@@ -18,4 +18,5 @@ Math Library for Python
 <h3>Output : </h3>
 <h4><pre><code>120</code></pre></h4>
 <h1>License</h1>
-<a>License</a>
+[License](https://www.https://github.com/abdulsamedkeskin/MathLibrary/LICENSE)
+
