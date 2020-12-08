@@ -1,7 +1,7 @@
 from distutils.core import setup
 import setuptools
 setup(
-  name = 'nested_loops',         
+  name = 'MathLibrary',         
   packages = setuptools.find_packages(),   
   version = '1.0',    
   license='MIT',      
