@@ -7,9 +7,8 @@ Math Library for Python
 # Example
         ```python
 from MathLibrary.mathlibrary import MathLibrary
-        
-        MathLibrary.fact(5)
-```
+MathLibrary.fact(5)
+        ```
         
         
      
