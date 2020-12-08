@@ -9,7 +9,7 @@ setup(
   author = 'Abdulsamet Keskin',                  
   author_email = 'erdemsametkeskin25@gmail.com',      
   url = 'https://github.com/abdulsamedkeskin/MathLibrary',   
-  download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V1.tar.gz',    
+  download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V2.tar.gz',    
   keywords = ['MathLibrary'],
   classifiers=[
     'Development Status :: 3 - Alpha',      
