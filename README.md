@@ -1,22 +1,18 @@
 # MathLibrary
 Math Library for Python
 
-<h1>Installation</h1>
+# Installation
 <pre><code>pip install MathLibrary</code></pre>
 
-<h1>Example</h1>
-<pre>
-<code class="python">
+# Example
         
         from MathLibrary.mathlibrary import MathLibrary
         
         MathLibrary.fact(5)
         
-        
-<code>
-</pre>
-<h3>Output : </h3>
-<h4><pre><code>120</code></pre></h4>
-<h1>License</h1>
+     
+### Output : 
+#### 120
+# License
 [License](https://github.com/abdulsamedkeskin/MathLibrary/blob/main/LICENSE)
 
