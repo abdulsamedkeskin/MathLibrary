@@ -15,4 +15,7 @@ Math Library for Python
         
 <code>
 </pre>
+<h5>Output : </h5>
+<pre><code>120</code></pre>
 <h1>License</h1>
+<a>License</a>
