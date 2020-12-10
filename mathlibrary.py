@@ -50,6 +50,13 @@ try:
 		def square(a):
 			result = math.pow(a,1/2)
 			print(result)
+		def PositiveOrNegative(a):
+			if int(a) == 0:
+				print("Sayı Sıfır.")
+			if int(a) > 0:
+				print("Sayı Pozitif.")
+			if int(a) < 0:
+				print("Sayı Negatif.")
 except:
 	print("Hata")
 
