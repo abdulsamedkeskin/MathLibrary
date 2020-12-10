@@ -18,19 +18,20 @@ MathLibrary.fact(5)
 ### Output : 
 ####        120
 # Props
-| Props          | Description                                         |
-| -------------  |:-------------:                                      |
-| fact           | Returns the factorial of a number                   |
-| add            | Returns the sum of numbers                          |
-| subtract       | Returns numbers subtracted from each other          |
-| multiplication | Returns the product of numbers                      |
-| division       | Returns the quotient of numbers                     |
-| percent        | Returns the percentage of values entered            |
-| pi             | Returns the number pi                               |
-| compare        | Compare numbers                                     |
-| absolute       | Returns the absolute value of a number              |
-| power          | Returns the power of the number                     |
-| square         | Returns the square root of the number               |
+| Props                 | Description                                         |
+| -------------         |:-------------:                                      |
+| fact                  | Returns the factorial of a number                   |
+| add                   | Returns the sum of numbers                          |
+| subtract              | Returns numbers subtracted from each other          |
+| multiplication        | Returns the product of numbers                      |
+| division              | Returns the quotient of numbers                     |
+| percent               | Returns the percentage of values entered            |
+| pi                    | Returns the number pi                               |
+| compare               | Compare numbers                                     |
+| absolute              | Returns the absolute value of a number              |
+| power                 | Returns the power of the number                     |
+| square                | Returns the square root of the number               |
+| PositiveOrNegative    | Returns whether the number is positive or negative. |
 # License
 MIT License
 
