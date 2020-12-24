@@ -1,9 +1,6 @@
 import math
 try:
 	class MathLibrary():
-		def __init__(self,a,b,c):
-			self.a = a 
-			self.b = b
 		def fact(a):
 			number_list = []
 			y = 1
