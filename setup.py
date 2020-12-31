@@ -1,9 +1,18 @@
 from distutils.core import setup
 import setuptools
+from setuptools import setup
+from os import math
+
+readme = path.abspath(path.dirname(__file__))
+with open(path.join(readme, 'Readme.md'), encoding='utf-8') as f:
+    readme_description = f.read()
+
 setup(
   name = 'MathLibrary',         
   packages = setuptools.find_packages(),   
   version = '6.0',
+  long_description=readme_description,
+  long_description_content_type='text/markdown',
   license='MIT',      
   description = 'Math Library For Python',   
   author = 'Abdulsamet Keskin',                  
