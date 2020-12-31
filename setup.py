@@ -3,13 +3,13 @@ import setuptools
 setup(
   name = 'MathLibrary',         
   packages = setuptools.find_packages(),   
-  version = '4.0',    
+  version = '5.0',
   license='MIT',      
   description = 'Math Library For Python',   
   author = 'Abdulsamet Keskin',                  
   author_email = 'erdemsametkeskin25@gmail.com',      
   url = 'https://github.com/abdulsamedkeskin/MathLibrary',   
-  download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V4.tar.gz',    
+  download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V5.tar.gz',
   keywords = ['MathLibrary'],
   classifiers=[
     'Development Status :: 3 - Alpha',      

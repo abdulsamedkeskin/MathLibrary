@@ -8,52 +8,52 @@ try:
 				number_list.append(i)
 			for x in number_list:
 				y = y * x
-			print(y)
+			return y
 		def add(a,b):
 			result = a + b
-			print(result)
+			return result
 		def subtract(a,b):
 			result = a - b
-			print(result)
+			return result
 		def multiplication(a,b):
 			result = a * b 
-			print(result)
+			return result
 		def division(a,b):
 			result = a / b
-			print(result)
+			return result
 		def percent(a,b):
 			result = a / 100 * b
-			print(result)
+			return result
 		def pi():
 			result = math.pi
-			print(result)
+			return result
 		def compare(a,b):
 			if a > b:
-				print(1)
+				return 1
 			if b > a:
-				print(-1)
+				return -1
 			if a == b:
-				print(0)
+				return 0
 		def absolute(a):
 			a = str(a)
 			if a.startswith("-") == True:
 				result = a.replace("-","")
-				print(int(result))
+				return int(result)
 			else:
-				print(int(a))
+				return int(a)
 		def power(a,b):
 			result = a ** b
-			print(result)
+			return result
 		def square(a):
 			result = math.pow(a,1/2)
-			print(result)
+			return result
 		def PositiveOrNegative(a):
 			if int(a) == 0:
-				print("Sayı Sıfır.")
+				return "Sayı Sıfır."
 			if int(a) > 0:
-				print("Sayı Pozitif.")
+				return "Sayı Pozitif."
 			if int(a) < 0:
-				print("Sayı Negatif.")
+				return "Sayı Negatif."
 except:
 	print("Hata")
 
