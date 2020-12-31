@@ -14,7 +14,7 @@ try:
     setup(
       name = 'MathLibrary',         
       packages = setuptools.find_packages(),   
-      version = '8.0',
+      version = '9.0',
       long_description=readme_description,
       long_description_content_type='text/markdown',
       license='MIT',      
@@ -22,7 +22,7 @@ try:
       author = 'Abdulsamet Keskin',                  
       author_email = 'erdemsametkeskin25@gmail.com',      
       url = 'https://github.com/abdulsamedkeskin/MathLibrary',   
-      download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V7.tar.gz',
+      download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V9.tar.gz',
       keywords = ['MathLibrary'],
       classifiers=[
         'Development Status :: 3 - Alpha',      
