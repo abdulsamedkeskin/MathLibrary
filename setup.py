@@ -1,7 +1,7 @@
 from distutils.core import setup
 import setuptools
 from setuptools import setup
-from os import math
+from os import path
 
 readme = path.abspath(path.dirname(__file__))
 with open(path.join(readme, 'Readme.md'), encoding='utf-8') as f:
@@ -10,7 +10,7 @@ with open(path.join(readme, 'Readme.md'), encoding='utf-8') as f:
 setup(
   name = 'MathLibrary',         
   packages = setuptools.find_packages(),   
-  version = '6.0',
+  version = '7.0',
   long_description=readme_description,
   long_description_content_type='text/markdown',
   license='MIT',      
@@ -18,7 +18,7 @@ setup(
   author = 'Abdulsamet Keskin',                  
   author_email = 'erdemsametkeskin25@gmail.com',      
   url = 'https://github.com/abdulsamedkeskin/MathLibrary',   
-  download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V6.tar.gz',
+  download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V7.tar.gz',
   keywords = ['MathLibrary'],
   classifiers=[
     'Development Status :: 3 - Alpha',      
