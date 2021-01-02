@@ -16,7 +16,7 @@ print(MathLibrary.fact(5))
         
 
 ### Output : 
-#### &nbsp;&nbsp;      120
+#### 120
 # Props
 | Props                 | Description                                         |
 | -------------         |:-------------:                                      |
