@@ -1,8 +1,5 @@
 from distutils.core import setup
-import setuptools
-from os import path
-
-
+from setuptools import setup,setuptools
 from os import path
 this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
@@ -13,13 +10,13 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
       name = 'MathLibrary',         
       packages = setuptools.find_packages(),   
-      version = '12.0',
+      version = '15.0',
       license='MIT',      
       description = 'Math Library For Python',   
       author = 'Abdulsamet Keskin',                  
       author_email = 'erdemsametkeskin25@gmail.com',      
       url = 'https://github.com/abdulsamedkeskin/MathLibrary',   
-      download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V12.tar.gz',
+      download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V15.tar.gz',
       keywords = ['MathLibrary'],
       classifiers=[
         'Development Status :: 3 - Alpha',      
