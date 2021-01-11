@@ -1,5 +1,4 @@
-from distutils.core import setup
-from setuptools import setup,setuptools
+import setuptools
 
 long_description = """# MathLibrary
 Math Library for Python
@@ -59,16 +58,16 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
-setup(
+setuptools.setup(
       name = 'MathLibrary',         
       packages = setuptools.find_packages(),   
-      version = '18.0',
+      version = '19.0',
       license='MIT',      
       description = 'Math Library For Python',   
       author = 'Abdulsamet Keskin',                  
       author_email = 'erdemsametkeskin25@gmail.com',      
       url = 'https://github.com/abdulsamedkeskin/MathLibrary',   
-      download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V18.tar.gz',
+      download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V19.tar.gz',
       keywords = ['MathLibrary'],
       classifiers=[
         'Development Status :: 3 - Alpha',      
