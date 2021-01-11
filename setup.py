@@ -1,22 +1,74 @@
 from distutils.core import setup
 from setuptools import setup,setuptools
-from os import path
-this_directory = path.abspath(path.dirname(__file__))
-with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
-    long_description = f.read()
+
+long_description = """# MathLibrary
+Math Library for Python
+
+# Installation
+```python
+pip install MathLibrary
+```
+# Example
+
+```python
+from MathLibrary import MathLibrary
 
 
+print(MathLibrary.fact(5))
+```   
+        
+
+### Output : 
+#### ```120```
+# Props
+| Props                 | Description                                         |
+| -------------         |:-------------:                                      |
+| fact                  | Returns the factorial of a number                   |
+| add                   | Returns the sum of numbers                          |
+| subtract              | Returns numbers subtracted from each other          |
+| multiplication        | Returns the product of numbers                      |
+| division              | Returns the quotient of numbers                     |
+| percent               | Returns the percentage of values entered            |
+| pi                    | Returns the number pi                               |
+| compare               | Compare numbers                                     |
+| absolute              | Returns the absolute value of a number              |
+| power                 | Returns the power of the number                     |
+| square                | Returns the square root of the number               |
+| PositiveOrNegative    | Returns whether the number is positive or negative. |
+# License
+MIT License
+
+Copyright (c) 2020 abdulsamedkeskin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+"""
 
 setup(
       name = 'MathLibrary',         
       packages = setuptools.find_packages(),   
-      version = '15.0',
+      version = '18.0',
       license='MIT',      
       description = 'Math Library For Python',   
       author = 'Abdulsamet Keskin',                  
       author_email = 'erdemsametkeskin25@gmail.com',      
       url = 'https://github.com/abdulsamedkeskin/MathLibrary',   
-      download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V15.tar.gz',
+      download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V18.tar.gz',
       keywords = ['MathLibrary'],
       classifiers=[
         'Development Status :: 3 - Alpha',      
