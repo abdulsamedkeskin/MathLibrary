@@ -1,1 +1,1 @@
-from MathLibrary.MathLibrary import MathLibrary
+from .MathLibrary import *

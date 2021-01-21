@@ -8,10 +8,10 @@ pip install MathLibrary
 # Example
 
 ```python
-from MathLibrary import MathLibrary
+from MathLibrary import *
 
 
-print(MathLibrary.fact(5))
+print(fact(5))
 ```   
         
 
