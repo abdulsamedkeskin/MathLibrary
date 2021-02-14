@@ -8,30 +8,18 @@ try:
 		for x in number_list:
 			y = y * x
 		return y
-	def add(a,b):
-		result = a + b
-		return result
-	def subtract(a,b):
-		result = a - b
-		return result
-	def multiplication(a,b):
-		result = a * b
-		return result
-	def division(a,b):
-		result = a / b
-		return result
-	def percent(a,b):
-		result = a / 100 * b
-		return result
-	def pi():
-		result = math.pi
-		return result
-	def compare(a,b):
-		if a > b:
+	add = lambda number_1, number_2: number_1 + number_2
+	subtract = lambda number_1, number_2: number_1 - number_2
+	multiplication = lambda number_1, number_2: number_1 * number_2	
+	division = lambda number_1, number_2: number_1 / number_2
+ 	percent = lambda a,b: a / 100 * b
+	pi = lambda:math.pi
+	def compare(number_1,number_2):
+		if number_1 > number_2:
 			return 1
-		if b > a:
+		if number_2 > number_1:
 			return -1
-		if a == b:
+		if number_1 == number_2:
 			return 0
 	def absolute(a):
 		a = str(a)
@@ -40,21 +28,17 @@ try:
 			return int(result)
 		else:
 			return int(a)
-	def power(a,b):
-		result = a ** b
-		return result
-	def square(a):
-		result = math.pow(a,1/2)
-		return result
-	def PositiveOrNegative(a):
-		if int(a) == 0:
+	power = lambda number_1, number_2: number_1 ** number_2
+	square = lambda number: math.pow(number, 1/2)
+	def PositiveOrNegative(number:int):
+		if number == 0:
 			return "Sayı Sıfır."
-		if int(a) > 0:
+		if number > 0:
 			return "Sayı Pozitif."
-		if int(a) < 0:
+		if number < 0:
 			return "Sayı Negatif."
 except:
-	print("Hata")
+	print("Bir hata meydana geldi.")
 
 if __name__ == '__main__':
 	pass
