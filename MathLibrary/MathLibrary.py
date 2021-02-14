@@ -12,7 +12,7 @@ try:
 	subtract = lambda number_1, number_2: number_1 - number_2
 	multiplication = lambda number_1, number_2: number_1 * number_2	
 	division = lambda number_1, number_2: number_1 / number_2
- 	percent = lambda a,b: a / 100 * b
+	percent = lambda a,b: a / 100 * b
 	pi = lambda:math.pi
 	def compare(number_1,number_2):
 		if number_1 > number_2:
