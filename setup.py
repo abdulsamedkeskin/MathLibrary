@@ -61,13 +61,13 @@ SOFTWARE.
 setuptools.setup(
       name = 'MathLibrary',         
       packages = setuptools.find_packages(),   
-      version = '21.0',
+      version = '22.0',
       license='MIT',      
       description = 'Math Library For Python',   
       author = 'Abdulsamet Keskin',                  
       author_email = 'erdemsametkeskin25@gmail.com',      
       url = 'https://github.com/abdulsamedkeskin/MathLibrary',   
-      download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V21.tar.gz',
+      download_url = 'https://github.com/abdulsamedkeskin/MathLibrary/archive/V22.tar.gz',
       keywords = ['MathLibrary'],
       classifiers=[
         'Development Status :: 3 - Alpha',      
